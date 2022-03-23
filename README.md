@@ -4,30 +4,27 @@ Tienda de productos que importa
 Somos una tienda con servicio de Almacén. Nos encargamos de traer lo último en tecnología y enviarlo hasta la puerta de su casa. Trabajamos con marcas como Apple, Xiaomi, Asus, Realme, OnePlus, Google, Oppo, entre otros; marcas las cuales no se venden de forma oficial en Argentina, pero tiene alta demanda a nivel mundial por su excelente calidad. Por eso, desde Global Tecno, nos preocupamos por llevarte siempre lo mejor al mejor precio.
 
 
-Páginas en las que nos inspiramos:
-• Tienda mía 
-    Es una página práctica, aunque no es dirigido a los clientes a los que apuntamos, sin embargo, la adaptamos. 
+**Páginas en las que nos inspiramos:** 
 
-• undertaker 
-    No es el mejor en cuanto a diseño ni en interfaz, pero sus funcionalidades y la gran cantidad de información en sus productos, nos resultó de mucha ayuda. 
+* [Datasoft](https://www.datasoft.com.ar/)
+Lo elegimos por el modelo de su carrito.
 
-• XhandTecnologia
-    Menú e interfaz prácticos y funcionalidad nos ayudó a diseñar, tampoco es un sitio con el mismo nicho que el nuestro, pero nos ayudó. 
+* [undertec.store](https://www.undertec.store/)
+ Por sus funcionalidades y la gran cantidad de información en sus productos, nos resultó de mucha ayuda.
 
-• Versus
-    La elegimos por el diseño y por los colores del home, también la información que presenta de cada producto. 
+* [tiendamia](https://tiendamia.com/ar/)
+Es una página práctica, aunque no es dirigido a los clientes a los que apuntamos, sin embargo, la adaptamos.
 
-• Datasoft 
-    Lo elegimos por el modelo de su carrito.
+* [aliexpress](https://es.aliexpress.com/) 
+Igual que TiendaMia,adaptamos algunas ideas
+
+* [xhardtecnologia](https://xhardtecnologia.com.ar/) 
+ Menú e interfaz prácticos y funcionalidad nos ayudó a diseñar, tampoco es un sitio con el mismo nicho que el nuestro, pero nos ayudó.
+
+* [versus.com](https://versus.com/es)
+La elegimos por el diseño y por los colores del home, también la información que presenta de cada producto.
 
 
-Mas referencias:
-•	undertec.store 
-•	aliexpress.com 
-•	mexx.com.ar 
-•	maximus.com.ar 
-•	compragamer.com
-•	versus.com
 
 INTEGRANTES:
    
