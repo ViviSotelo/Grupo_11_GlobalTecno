@@ -1,7 +1,6 @@
-:root{
-
-    --colorVerdeOscuro : #105C54;
-    --colorverde : #A2D7D2;
+:root {
+    --colorHeader: #105C54;
+    --coloMain: #A2D7D2;
     --colorVerdeClaro : #C6F2EE;
 
     --colorGrisOscuro : #C4C4C4;
