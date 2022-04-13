@@ -1,0 +1,251 @@
+/* header */
+.home_body {
+    background-color: var(--colorMain);
+
+}
+
+.home__header nav {
+    width: 100%;
+    background-color: var(--colorHeader);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav div.burguer{
+    margin-left: -5px;
+    margin-top: 6px;
+    padding: 5px;
+    font-size: 30px;
+    width: 10%;
+}
+nav div.burguer i{
+    
+    font-size: 27px;
+}
+div.logo{
+    display: flex;
+    width: 15%;
+ 
+}
+div.logo img{
+
+    margin-left: -20%;
+    /* margin-right: -25% */;
+    width:50px;
+    padding: 5%;
+   
+    color: var(--colorHeader);
+}
+header input{
+    padding: 10px;
+}
+div.buscador{
+    margin-right: -20px;
+    width:55%;
+}
+div.buscador input {
+    margin-top: 15px;
+    margin-left: -26px;
+    width: 75%;
+    padding:5px 4px;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--colorVerdeClaro);
+    
+}
+div.buscador button.lupa{
+ width: 15%;
+ padding: 5px;
+ margin: -5px;
+ border-radius: 0 10px 10px 0;
+ background-color: var(--colorVerdeClaro);
+}
+
+div.iconos{
+    margin-left: -20px;
+    width: 20%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+}
+.iconos a i{
+font-size:  23px;
+}
+
+i.fa-user, .iconos a, i.signo__peso{
+    border-radius: 50%;
+    background-color: var(--colorVerdeClaro);
+    padding: 10px;
+    margin-left: 4px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+header div.moneda, div.login{
+    display: none;
+}
+.home__main p.home__descripcion, p.home__precio__dolar{
+   display: none;
+   
+}  
+
+
+
+
+
+
+/* main */
+
+.home__main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home__main section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.home__imagen__producto img{
+    margin: 0%;
+    width: 100%;
+    padding: 5%;
+    border-radius: 30px;
+   
+    
+}
+
+.home__main h2, .home__main h4{
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.home__main article{
+
+    width: 40%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.home__main article .home__imagen__producto{
+    width: 100%;
+}
+.home__main article .home__imagen__producto a {
+    width: 100%;
+}
+
+
+.home__main p{
+    margin: 10px 0;
+   
+}
+div.home__productos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+
+
+/* footer */
+
+.home__footer {
+    
+    background-image: url('/images/footer1.jpg');
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.home__footer h5{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+footer section {
+
+    background-color: var(--colorVerdeClaro);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+footer .footer__1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+footer .footer__2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+footer .footer__1 section {
+    width: 42%;
+}
+footer .footer__redes{
+ width: 90%;
+}
+footer .footer__redes div{
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+} 
+footer .footer__redes a{
+    width: 50px;
+    
+}
+
+footer .footer__redes a img{
+    width: 100%;
+
+    
+}
+footer  a.footer__telefono img{
+    width: 100%;
+    padding: 4px;
+
+    
+}
+
+
+@media(min-width: 375px){
+      
+
+}
