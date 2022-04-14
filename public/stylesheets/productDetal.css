@@ -1,0 +1,16 @@
+/* header */
+
+/* main */
+
+body.detal{
+    background-color:  #A2D7D2;;
+}
+
+.detail_box{
+    width: 90%; 
+    height: 80vh;
+    background-color: #E5E5E5;
+    margin: 30px auto 0;
+    box-shadow: 2px 2px 2px  #C6F2EE;
+    border-radius: 10px;
+}
