@@ -56,7 +56,7 @@ INTEGRANTES:
 Descripción y Nicho de mercado: 
 
 ¿Qué productos brindará nuestro sitio? 
-Global Tecno es una tienda que ofrece Teléfonos celulares, entre otras cosas, de marcas reconocidas, tenemos en cuenta el rendimiento; la calidad y siempre buscando el mejor precio, con la opcion de cambiar a la moneda que mejor se acomoda al comprador. Ademas cada producto es importado y lo enviamos hasta la puerta de tu casa sin cargo adicional. 
+Global Tecno es una tienda que ofrece Teléfonos celulares, entre otras cosas, de marcas reconocidas, tenemos en cuenta el rendimiento, la calidad y siempre buscando el mejor precio, con la opcion de cambiar a la moneda que mejor se acomoda al comprador. Además cada producto es importado y lo enviamos hasta la puerta de tu casa sin cargo adicional. 
 
 ¿Quién será nuestra audiencia objetivo? 
 Nuestra audiencia objetivo son adolescentes/jóvenes/adultos que desean estar actualizados en lo último en el mercado. También para todo aquel consumidor que desea tener tecnología de calidad sin que le cobren de más.
