@@ -6,11 +6,147 @@ body.detal{
     background-color:  #A2D7D2;;
 }
 
-.detail_box{
-    width: 90%; 
-    height: 80vh;
+.detail_box {
     background-color: #E5E5E5;
+    width: 90%;
     margin: 30px auto 0;
     box-shadow: 2px 2px 2px  #C6F2EE;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
 }
+
+.box_img_p1 img{
+    width: 100%;
+    margin-left: 5%;
+}
+
+.box_img_mini_p1 img{
+    width: 30%;
+
+}
+
+.detail_box .box_img_p1 {
+    width: 90%;
+
+}
+.detail_box .box_img_mini_p1 {
+   display: flex;
+   justify-content: space-between;
+}
+
+.detail_box .img-principal_p1 {
+    margin: 10px 0;
+}
+
+
+.detail_box .box-content-p1{
+    width: 90%;
+    margin: 2%;
+}
+
+.detal-compra_p1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.estrellas_p1 {
+
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+  
+  .PrimeraFila_p1{
+    display: flex;
+  }
+  
+  .diegorugbybat{
+    padding-top: 2%;
+  }
+  .estrellas_diegorugbybat_p1{
+    display: flex;
+  }
+  
+  .potatochiP233{
+  padding-top: 2%;
+  }
+  .estrellas_potatochiP233_p1{
+    display: flex;
+  }
+  
+  .estefania_vs_p1{
+    padding-top: 2%;
+    }
+  .estrellas_estefania_vs_p1{
+    display: flex;
+  }
+  .descripcion_p1{
+      margin-top: 2%;
+  }
+
+
+@media (min-width:768px){
+
+    body.detail_box{
+        justify-content: center;
+    }
+
+    
+    .detail_box .box_img_mini_p1 {
+       flex-direction: column; 
+       padding: 10px;
+     }
+
+     .box_img_mini_p1 img {
+         width: 40%;
+         margin: 5px 1px;
+     } 
+
+     .img-principal_p1 img{
+        width: 125%;
+        margin-right: 50%;
+    }
+    
+    .detail_box .box_img_p1{
+        display: flex;
+        width: 100%;
+    }
+     .detail_box .img-principal_p1{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+    }
+
+
+    @media (min-width:1024px){
+
+        .box_img_p1{ 
+            margin: 20px 0;
+            display: flex;
+
+        }
+    
+         .box_img_mini_p1 img {
+             width: 20%;
+             margin-left: 10%;
+
+         } 
+         .img-principal_p1 img{
+            width: 80%;
+
+
+        }
+        
+        .detail_box .box_img_p1{
+            display: flex;
+            width: 100%;
+        }
+        
+        }
