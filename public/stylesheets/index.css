@@ -2,7 +2,7 @@
 .home_body {
   
     margin: auto;
-    
+    background-color: var(--colorMain);
 
 }
 
@@ -124,7 +124,10 @@ div.carrusel img {
 
 
 }
-
+.home__main{
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
 .home__main section {
     display: flex;
     flex-wrap: wrap;
@@ -147,6 +150,7 @@ div.carrusel img {
     text-transform: uppercase;
     margin: 10px;
     width: 100%;
+    word-wrap: break-word;
 }
 
 .home__main article {
@@ -394,7 +398,10 @@ footer a.footer__telefono img {
     }
 
     .home__main article {
+        align-items: baseline;
         width: 30%;
+        box-shadow: 4px -5px rgba(9, 37, 37, 0.5);
+        
     }
 
 
@@ -452,6 +459,12 @@ footer a.footer__telefono img {
         width: 23%;
         justify-content: space-evenly;
     }
+   div.home__productos{
+       flex-wrap: wrap;
+       flex-direction: row;
+       align-items: flex-start;
+   }
+    
 
         /*footer */
     footer .home__footer {
