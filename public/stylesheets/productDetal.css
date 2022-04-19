@@ -1,4 +1,112 @@
 /* header */
+/* header */
+.home_body {
+  
+    margin: auto;
+    
+
+}
+
+.home__header nav {
+    align-items: center;
+    background-color: var(--colorHeader);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+nav div.burguer {
+    font-size: 30px;
+    width: 5%;
+}
+
+nav div.burguer i {
+
+    font-size: 27px;
+}
+
+div.logo {
+    width: 10%;
+    
+}
+
+div.logo img {
+
+    width: 45px;
+    color: var(--colorHeader);
+}
+
+div.buscador {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+div.buscador input {
+   
+    width: 80%;
+    padding: 7px 4px;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--colorVerdeClaro);
+    border: none;
+
+}
+
+div.buscador button.lupa {
+    width: 17%;
+    padding: 7px;
+    border-radius: 0 10px 10px 0;
+    background-color: var(--colorVerdeClaro);
+    border: none;
+}
+
+div.iconos {
+    width: 30%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.iconos a i {
+    font-size: 23px;
+}
+
+i.fa-user,
+.iconos a,
+i.signo__peso {
+    border-radius: 50%;
+    background-color: var(--colorVerdeClaro);
+    color: black;
+    padding: 10px;
+    margin-left: 4px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header div.moneda,
+div.login,
+div.home__barra__menu {
+    display: none;
+}
+
+.home__main p.home__descripcion,
+p.home__precio__dolar,
+div.logo h1 {
+    display: none;
+
+}
 
 /* main */
 
@@ -126,7 +234,18 @@ body.detal{
 
 
     @media (min-width:1024px){
-
+        .home_body{
+            max-width: 1440px;
+        }
+    
+        
+    
+        /* main */
+        .home__main article {
+            width: 23%;
+            justify-content: space-evenly;
+        }
+    
         .box_img_p1{ 
             margin: 20px 0;
             display: flex;
