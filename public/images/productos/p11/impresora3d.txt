@@ -1,6 +1,6 @@
 ESPECIFICACIONES TÉCNICAS:
 
- Valor $74249
+ Valor $742,49
 
 
 Tecnología de Impresión: FDM
