@@ -63,3 +63,5 @@ Nuestra audiencia objetivo son adolescentes/jóvenes/adultos que desean estar ac
 
 ¿Como ajustaremos nuestra oferta al público? 
 Queremos que la navegación por el sitio sea funcional, intuitiva e igual de cómodo en el dispositivo que utilice el cliente (tablet; celular; pc; etc), con colores llamativos y funciones que inviten al cliente a explorar a través de la página en busca del producto que mejor se adapte a sus necesidades. 
+
+link de TRELLO: https://trello.com/b/KEVBercI
