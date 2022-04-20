@@ -1,20 +1,15 @@
+  
+ main{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--colorMain);
+    border-left:1px solid black;
+    border-right:1px solid black; 
 
-
-
-
-
-
-/* main */
-
-.register main{
-    padding: 0 20px;
 }
-    
- main{
-     
-background-color: var(--colorVerdeClaro);
-}
- 
+
 .contenedor{
 background-color: #e3e3e3 ;
     width: 90%;
@@ -31,53 +26,48 @@ text-transform: uppercase;
 text-align: center;
 }
 
-
 .register__form-box{
 margin-bottom: 15px;
 }
 
 .register__form-input{
-width: 50%;
+width: 40%;
 padding: 5px;
 background-color: var(--colorVerdeClaro);
 border: none;
+border-radius: 2px;
+font-size:115%;
 }
 
-button{
-
-    margin-bottom: 10px ;
-    padding: 5px ;
-    text-align: center;
+    button{
+        text-align: center;
     background-color: var(--colorVerdeClaro);
-    border: none;
     width: 40%;
-border-radius: 3px;
-font-size:115%;
-} 
+    border-radius: 3px;
+    font-size:115%;
+    }
 
 
 #botonf{
-    text-align: left;
+    text-align: center;
     color: antiquewhite;
     background-color: blue;
-}
+    margin-bottom: 5px;
+    }
+
 #botong{
-    text-align: left;
+    text-align:center;
 }
 
 #botonr{
     background-color: var(--colorHeader);
-    font-size: 16px;
     color: black;
-    width: 40%;
-border-radius: 3px;
-font-size:115%;
+    border-radius: 2px;
+    font-size:115%;
 }
-
-
 
 .register-texto{
 text-align: center;
 font-size: 0.8rem;
-margin-bottom:10px;
+margin:5px;
 }
