@@ -9,89 +9,86 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <title>GlobalTecno</title>
 </head>
-    
-    <body class="carro">
-        <header class="home__header">
-            <nav>
-                <div class="burguer">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+
+<body class="carro">
+    <header class="home__header">
+        <nav>
+            <div class="burguer">
+                <i class="fa-solid fa-bars"></i>
+            </div>
                
-                <div class="logo">
-                    <a href="/"><img src="/images/LOGO-GT-trasparente.png" alt=""></a>
-                    <h1>GlobalTecno</h1>
-                </div>
+            <div class="logo">
+                <a href="/"><img src="/images/LOGO-GT-trasparente.png" alt=""></a>
+                <h1>GlobalTecno</h1>
+            </div>
     
-                <div class="buscador">
-                    <input type="text" placeholder="Buscar productos,marcas" required>
-                    <button class="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </div>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar productos,marcas" required>
+                <button class="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
                 
-                <div class="login">
-                    <button class="home__login"><a  href="/Login">ingresa</a></button>
-                    <button class="home__register"><a href="/register">Registrate</a></button>
+            <div class="login">
+                <button class="home__login"><a  href="/Login">ingresa</a></button>
+                <button class="home__register"><a href="/register">Registrate</a></button>
+            </div>
+    
+            <div class="iconos">
+                <i class="fa-solid fa-user"></i>
+                <a href="/productCarri"><i class="fa-solid fa-cart-shopping"></i></a>
+
+                <i class="signo__peso"><i class="fa-solid fa-dollar-sign"></i></i>
+            </div>
+            <div class="moneda">
+                <input type="checkbox" name="peso" id="peso">
+                <label for="peso">peso</label>
+                <input type="checkbox" name="dolar" id="dolar">
+                <label for="dolar">dolar</label>
+            </div>       
+        </nav>
+        <nav>
+            <div class="home__barra__menu">
+                <ul>
+                    <li><a href=""></a>Telefonia</li>
+                    <li><a href=""></a>Electronica</li>
+                    <li><a href=""></a>Accesorio</li>
+                    <li><a href=""></a>Ayuda</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main_carrito">
+        <div class="box__productos_carrito">
+            <div class="carrito_producto1">
+                <h1 class="titulo_carrito">TU CARRITO</h1>
+            </div>
+            <div class=producto1__carrito>
+                <div class="producto1_img">
+                    <img src="/images/productos/P2/1.jpg" alt="">
                 </div>
-    
-                <div class="iconos">
-                    <i class="fa-solid fa-user"></i>
-                    <a href="/productCarri"><i class="fa-solid fa-cart-shopping"></i></a>
-    
-                    <i class="signo__peso"><i class="fa-solid fa-dollar-sign"></i></i>
-                </div>
-    
-                
-    
-                <div class="moneda">
-    
-                    <input type="checkbox" name="peso" id="peso">
-                    <label for="peso">peso</label>
-                    <input type="checkbox" name="dolar" id="dolar">
-                    <label for="dolar">dolar</label>
-    
-                </div>
-               
-            </nav>
-            <nav>
-                <div class="home__barra__menu">
-                    <ul>
-                        <li><a href=""></a>Telefonia</li>
-                        <li><a href=""></a>Electronica</li>
-                        <li><a href=""></a>Accesorio</li>
-                        <li><a href=""></a>Ayuda</li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <main class="main_carrito">
-            <div class="box__productos_carrito">
-                <div class="carrito_producto1">
-                    <h1 class="titulo_carrito">TU CARRITO</h1>
-                </div>
-                <div class=producto1__carrito>
-                    <div class="producto1_img">
-                        <img src="/images/productos/P2/1.jpg" alt="">
+
+                <div class="producto1_detalles">
+                    <div class="Titulo_producto1">
+                        <h2> Bolígrafo Universal para Teléfonos Inteligentes </h2>
                     </div>
-                    <div class="producto1_detalles">
-                        <div class="Titulo_producto1">
-                            <h2> Bolígrafo Universal para Teléfonos Inteligentes </h2>
-                        </div>
-                        <div class="valor_producto1">
-                            <h2>ARS $650,35</h2>
-                        </div>
-                        <div class="estrellas_producto1">
-                            <h3>⭐</h3>
-                            <h3>⭐</h3>
-                            <h3>⭐</h3>
-                            <h3>⭐</h3>
-                            <h3>⭐</h3>
-                        </div>
-                        <div class="botones-cantidad_producto1__carrito">
-                            <button> – </button>
-                            <button> 1 </button>
-                            <button> + </button>
-                        </div>
+                    <div class="valor_producto1">
+                        <h2>ARS $650,35</h2>
+                    </div>
+
+                    <div class="estrellas_producto1">
+                        <h3>⭐</h3>
+                        <h3>⭐</h3>
+                        <h3>⭐</h3>
+                        <h3>⭐</h3>
+                        <h3>⭐</h3>
+                    </div>
+                    <div class="botones-cantidad_producto1__carrito">
+                        <a class="boton_carrito_menos_p1"> – </a>
+                        <a class="boton_carrito_cantidad_p1"> cantidad </a>
+                        <a class="boton_carrito_mas_p1"> + </a>
                     </div>
                 </div>
+            </div>
                 <div class=producto2__carrito>
                     <div class="producto2_img">
                         <img src="/images/productos/P1/1.jpg" alt="">
@@ -111,9 +108,9 @@
                             <h3>⭐</h3>
                         </div>
                         <div class="botones-cantidad_producto2__carrito">
-                            <button> – </button>
-                            <button> 1 </button>
-                            <button> + </button>
+                            <a class="boton_carrito_menos_p2"> – </a>
+                            <a class="boton_carrito_cantidad_p2"> cantidad </a>
+                            <a class="boton_carrito_mas_p2"> + </a>
                         </div>
                     </div>
                 </div>
@@ -136,9 +133,9 @@
                             <h3>⭐</h3>
                         </div>
                         <div class="botones-cantidad_producto3__carrito">
-                            <button> – </button>
-                            <button> 1 </button>
-                            <button> + </button>
+                            <a class="boton_carrito_menos_p3"> – </a>
+                            <a class="boton_carrito_cantidad_p3"> cantidad </a>
+                            <a class="boton_carrito_mas_p3"> + </a>
                         </div>
                     </div>
                 </div>
@@ -162,6 +159,7 @@
 
             </div>
         </main>
+        
         <footer class="home__footer">
             <div class="footer__1">
                 <section class="footer__marcas">
