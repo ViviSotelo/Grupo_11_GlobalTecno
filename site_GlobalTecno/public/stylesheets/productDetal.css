@@ -1,11 +1,10 @@
-/* header */
-/* header */
-.home_body {
-  
-    margin: auto;
-    
 
+/* header */
+
+.detal_html{
+    margin-right: -30px auto
 }
+
 
 .home__header nav {
     align-items: center;
@@ -14,7 +13,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 100%;
+    width: 50%;
 
 }
 
@@ -118,6 +117,7 @@ body.detal{
     background-color: #E5E5E5;
     width: 90%;
     margin: 30px auto 0;
+    margin-bottom: 5%;
     box-shadow: 2px 2px 2px  #C6F2EE;
     border-radius: 10px;
     display: flex;
@@ -161,6 +161,42 @@ body.detal{
     justify-content: space-between;
 }
 
+.cantidad_de_p1{
+    display: flex;
+    flex-direction: row;
+    border: 10px;
+}
+.cantidad_p1_menos,
+.cantidad_p1_cantidad,
+.cantidad_p1_mas{
+    background-color: #A2D7D2;
+    border-radius: 30px;
+    text-align: center;
+    padding: 2%;
+    margin-right: 1%;
+}
+.detal-compra_todo_p1{
+    border-top: 2%;
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+}
+.detal-cupon_p1,
+.detal-compra_p1,
+.detal-carrito_p1{
+    background-color: #A2D7D2;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 2%;
+}
+.detal-compra_p1{
+    margin-top: 10%;
+    background-color: #A2D7D2;
+    border-radius: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .estrellas_p1 {
 
     margin: 20px 0;
@@ -170,11 +206,11 @@ body.detal{
     flex-direction: column;
 }
   
-  .PrimeraFila_p1{
+.PrimeraFila_p1{
     display: flex;
   }
   
-  .diegorugbybat{
+ .diegorugbybat{
     padding-top: 2%;
   }
   .estrellas_diegorugbybat_p1{
@@ -197,7 +233,6 @@ body.detal{
   .descripcion_p1{
       margin-top: 2%;
   }
-
 
 @media (min-width:768px){
 
@@ -233,17 +268,11 @@ body.detal{
     }
 
 
-    @media (min-width:1024px){
-        .home_body{
-            max-width: 1440px;
-        }
-    
+@media (min-width:1024px){
         
     
-        /* main */
-        .home__main article {
-            width: 23%;
-            justify-content: space-evenly;
+        .home_body{
+            max-width: 1440px;
         }
     
         .box_img_p1{ 
@@ -254,11 +283,15 @@ body.detal{
     
          .box_img_mini_p1 img {
              width: 20%;
-             margin-left: 10%;
+             margin-left: 10%;          
+            max-width: 40%;
+            height: auto;
 
          } 
          .img-principal_p1 img{
             width: 80%;
+            max-width: 100%;
+            height: auto;
 
 
         }
@@ -266,6 +299,71 @@ body.detal{
         .detail_box .box_img_p1{
             display: flex;
             width: 100%;
+        } 
+        .cantidad_de_p1{
+            font-size:larger;
+            padding: 2%;
         }
+
+        .box-content-p1{
+            font-size:larger
+        }
+        .detal-cantidad_p1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        }
+        .detal-compra_todo_p1{
+            width: 50%;
+        }
+
         
-        }
+}
+
+@media (min-width:1024px){
+    
+    .box-content-p1{
+        font-size:xx-large
+    }
+    
+    .detal_botones_p1{
+        width: 100%;
+    }
+
+    .estrellas_p1{
+        font-size:x-large
+    }
+
+    .descripcion_p1{
+        padding: 2%;
+    }
+}
+@media (min-width:2560px){
+    
+    .box-content-p1{
+        font-size:xxx-large
+    }
+    
+    .detal_botones_p1{
+        width: 100%;
+    }
+    .detal_botones_p1{
+        font-size:xx-large   
+    }
+    .detal-cantidad_p1{
+        font-size:xx-large 
+    }
+
+    .estrellas_p1{
+        padding: 2%;
+        font-size:xxx-large
+    }
+
+    .descripcion_p1{
+        padding: 2%;
+        font-size:xx-large
+    }
+}
