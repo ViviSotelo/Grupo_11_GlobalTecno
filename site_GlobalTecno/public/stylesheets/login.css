@@ -149,7 +149,7 @@ height: 30%;
 padding: 10px;
 background-color: var(--colorVerdeClaro);
 border-radius: 5px;
-font-size:120%;
+font-size:115%;
 border: none;
 }
 
@@ -201,7 +201,7 @@ font-size: 0.8rem;
 
 /* main media tablet*/
 
-@media(min-width: 768px){
+/* @media(min-width: 768px){
     
 #register__form-input{
     width: 75%;
@@ -212,12 +212,12 @@ section button{
     width: 75%;}
 
 }
-
+*/
 /* main media desktop */
-@media(min-width: 1024px) {
+/* @media(min-width: 1024px) {
 
     
-}
+}  */
 
 
 /* footer */
