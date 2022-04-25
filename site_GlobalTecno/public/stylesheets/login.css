@@ -199,7 +199,7 @@ font-size: 0.8rem;
     }
 
 
-/* main*/
+/* main media tablet*/
 
 @media(min-width: 768px){
     
@@ -213,6 +213,11 @@ section button{
 
 }
 
+/* main media desktop */
+@media(min-width: 1024px) {
+
+    
+}
 
 
 /* footer */
