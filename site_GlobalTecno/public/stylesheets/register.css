@@ -147,18 +147,16 @@ text-transform: uppercase;
 text-align: center;
 }
 
-.register__form-box{
-margin:15px;
-}
 
 .register__form-input{
-width: 41%;
+width: 40%;
 height: 30%;
 padding: 10px;
 background-color: var(--colorVerdeClaro);
-border-radius: 4px;
+border-radius: 5px;
 font-size:115%;
 border: none;
+margin-top:15px;
 }
 
 section button{
@@ -166,13 +164,13 @@ section button{
     height: 30%;
     padding: 10px;
     background-color: var(--colorVerdeClaro);
-    border-radius: 4px;
+    border-radius: 5px;
     font-size:115%;    
     text-align: center;
     }
     
 .boton-link{
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 
@@ -191,13 +189,23 @@ section button{
 #botonr{
     background-color: var(--colorHeader);
     color: black;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size:115%;
     margin-top: 25px;
 }
 
-#register-texto{
+#register-texto1{
 font-size: 0.8rem;
-margin-top:25px;
+margin-top: 5px;
 }
+
+#register-texto2{
+    font-size: 0.8rem;
+    margin-top:25px;
+    }
+
+#register-texto3{
+        font-size: 0.8rem;
+        }
+        
 

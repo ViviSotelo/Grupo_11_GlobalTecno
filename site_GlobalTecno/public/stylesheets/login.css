@@ -151,6 +151,7 @@ background-color: var(--colorVerdeClaro);
 border-radius: 5px;
 font-size:115%;
 border: none;
+margin-top:15px;
 }
 
 section button{
@@ -183,20 +184,26 @@ section button{
 #botonr{
     background-color: var(--colorHeader);
     color: black;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size:115%;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
-#register-texto{
-font-size: 0.8rem;
-
+#register-texto1{
+    font-size: 0.8rem;
+    margin-bottom:25px;
 }
 
 #register-texto2{
     font-size: 0.8rem;
-    margin-bottom:25px;
+    margin-top: 00px;
     }
+
+#register-texto3{
+font-size: 0.8rem;
+margin-top:10px;
+}
+
 
 
 /* main media tablet*/
