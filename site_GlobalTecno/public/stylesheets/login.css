@@ -144,7 +144,7 @@ text-align: center;
 }
 
 #register__form-input{
-width: 40%;
+width: 80%;
 height: 30%;
 padding: 10px;
 background-color: var(--colorVerdeClaro);
@@ -155,7 +155,7 @@ margin-top:15px;
 }
 
 section button{
-    width: 40%;
+    width: 80%;
     height: 30%;
     padding: 10px;
     background-color: var(--colorVerdeClaro);
@@ -186,22 +186,21 @@ section button{
     color: black;
     border-radius: 5px;
     font-size:115%;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 #register-texto1{
-    font-size: 0.8rem;
-    margin-bottom:25px;
+    font-size: 0.7rem;
+    margin-bottom:15px;
 }
 
 #register-texto2{
-    font-size: 0.8rem;
-    margin-top: 00px;
+    font-size: 0.6rem;
+  
     }
 
 #register-texto3{
-font-size: 0.8rem;
-margin-top:10px;
+font-size: 0.7rem;
 }
 
 
