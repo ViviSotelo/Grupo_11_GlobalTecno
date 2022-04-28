@@ -217,8 +217,9 @@ font-size: 0.7rem;
 
     
     div.login__form-box{
-        width: 70%;
-       }
+        width: 83%;
+    margin: 0% auto;
+    }
 
     section button{
         width: 70%;
@@ -236,8 +237,8 @@ font-size: 0.7rem;
 
 
     div.login__form-box{
-        width: 40%;
-
+        width: 47%;
+        margin: 0% auto;
     }
     section button{
         width: 40%;
