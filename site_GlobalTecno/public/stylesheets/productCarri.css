@@ -1,5 +1,4 @@
-
- body.carro{
+body.carro{
     background-color:  #A2D7D2;
     max-width: 100%;
 }
@@ -38,7 +37,7 @@
  
 .carro .producto1_img img{
     width: 80%;
-    height: 80%;
+    height: 100%;
     padding-top: 10%;
 
 }
@@ -82,7 +81,7 @@
 } 
 .carro .producto2_img img{
     width: 80%;
-    height: 80%;
+    height: 100%;
     padding-top: 10%;
 
 }
@@ -124,7 +123,7 @@
 } 
  .carro .producto3_img img{
     width: 80%;
-    height: 80%;
+    height: 100%;
     padding-top: 10%;
 
 }
@@ -166,6 +165,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
+    align-items: center;
 }
 
 .pecios_carrito{
@@ -178,20 +178,26 @@
     padding: 4%;
 }
 
+.botones_carrito{
+    text-align:center;
+}
 .boton-comprar_carrito{
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: #A2D7D2;
     border-radius: 30px;
-    text-align: center;
-    vertical-align: middle;
+    font-size: 200%;
+    padding: 5%;
+    align-items: center;
 }
 
 .boton-cupon_carrito{
     margin-top: 4%;
     background-color: #C4C4C4;
-    border-radius: 30px;
+    border-radius: 10px;
     text-align: center;
     vertical-align: middle;
+    padding: 5px;
+
 }
 
 @media (min-width:375px){
@@ -203,6 +209,9 @@
 @media (min-width:425px){
     .pecios_carrito{
        font-size:x-large
+    }
+    .botones_carrito{
+        font-size: larger;
     }
 }
 
@@ -222,11 +231,8 @@
     .precio-total_carrito{
         font-size:x-large
     }
-    .boton-comprar_carrito{
-        font-size:large
-    }
-    .boton-cupon_carrito{
-        font-size:large
+    .botones_carrito{
+        font-size: x-large;
     }
 }
 
@@ -321,7 +327,11 @@
     .precio-total_carrito{
         padding-top: 150%;
     }
-    
+    .botones_carrito{
+        margin-top: 10%;
+        font-size: large;
+    }
+
 }
 
 @media (min-width:1440px){
@@ -337,6 +347,9 @@
     }
     .pecios_carrito{
         font-size:x-large;
+    }
+    .botones_carrito{
+        font-size: x-large;
     }
 }
 
@@ -360,9 +373,13 @@
     .precio-total_carrito{
         font-size:xxx-large
     }
-    .boton-comprar_carrito,
+    .botones_carrito{
+        font-size: xxx-large;
+    }
+
     .boton-cupon_carrito{
-        font-size:xx-large;
+        font-size:large;
+        margin-bottom: 5%;
     }
 
 }
