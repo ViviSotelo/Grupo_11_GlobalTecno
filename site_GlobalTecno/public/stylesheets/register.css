@@ -149,7 +149,7 @@ text-align: center;
 
 
 .register__form-input{
-width: 80%;
+width: 85%;
 height: 30%;
 padding: 10px;
 background-color: var(--colorVerdeClaro);
@@ -160,7 +160,7 @@ margin-top:15px;
 }
 
 section button{
-    width: 80%;
+    width: 85%;
     height: 30%;
     padding: 10px;
     background-color: var(--colorVerdeClaro);
@@ -192,6 +192,7 @@ section button{
     border-radius: 5px;
     font-size:115%;
     margin-top: 15px;
+margin-bottom: 5px;
 }
 
 #register-texto1{
