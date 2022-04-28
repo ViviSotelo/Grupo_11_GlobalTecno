@@ -1,7 +1,7 @@
 /* header */
 .home_body {
     margin: auto;
-  
+    background-color: var(--colorMain);
 }
 
 .home__header nav {
