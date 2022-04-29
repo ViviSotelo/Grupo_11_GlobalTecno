@@ -121,6 +121,7 @@ body.detal{
     box-shadow: 2px 2px 2px  #C6F2EE;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     padding: 10px;
 }
@@ -153,18 +154,40 @@ body.detal{
     width: 90%;
     margin: 2%;
 }
+.box_precio-content-p1{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.envio_precio-content-p1{
+    margin-top: 10%;
+}
+
+.Stock-P1{
+    display:flex;
+    flex-direction:column ;
+    width: 90%;
+    margin: 2%;
+    text-align: start;
+}
 
 .detal-compra_p1 {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 2%;
     justify-content: space-between;
 }
 
-.cantidad_de_p1{
+.detal_todos-botones_p1{
+    margin-top: 10%;
     display: flex;
-    flex-direction: row;
-    border: 10px;
+    flex-direction: column;
+    padding: 2%;
+    text-align:center;
+}
+
+.detal_cantidad_de_p1{
+    display: flex;
 }
 .cantidad_p1_menos,
 .cantidad_p1_cantidad,
@@ -172,34 +195,35 @@ body.detal{
     background-color: #A2D7D2;
     border-radius: 30px;
     text-align: center;
+    padding: 5%;
+    margin-right: 1%;
+}
+.detal-comprar_p1{
+    margin-top: 10%;
+    font-size: 200%;
+    margin: 5%;
+    align-items: center;
+    width: 80%;
+    background-color: #A2D7D2;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5%;
+    margin-right: 1%;
+}
+.detal-carrito_p1{
+    margin-top: 5%;
+    width: 60%;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    text-align: center;
     padding: 2%;
     margin-right: 1%;
 }
-.detal-compra_todo_p1{
-    border-top: 2%;
-    display: flex;
-    flex-direction: column;
-    border: 10px;
-}
-.detal-cupon_p1,
-.detal-compra_p1,
-.detal-carrito_p1{
-    background-color: #A2D7D2;
-    border-radius: 30px;
-    text-align: center;
-    margin-top: 2%;
-}
-.detal-compra_p1{
-    margin-top: 10%;
-    background-color: #A2D7D2;
-    border-radius: 30px;
-    text-align: center;
-    vertical-align: middle;
-}
 
 .estrellas_p1 {
-
-    margin: 20px 0;
+    width: 90%;
+    margin: 2%;
+    margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
     display: flex;
@@ -231,8 +255,30 @@ body.detal{
     display: flex;
   }
   .descripcion_p1{
-      margin-top: 2%;
+    width: 90%;
+    margin: 2%;  
+    margin-top: 10%;
+    font-size: large;
   }
+
+  .Detalles-numeroDeProducto_P1{
+    margin-top: 5%;
+  }
+  .Detalles-caracteristicas_P1{
+    margin-top: 10%;
+  }
+  .detalles_lista_p1{
+    margin-top: 5%;
+  }
+
+@media (min-width:425px){
+    .box_precio-content-p1{
+        font-size: larger;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
 
 @media (min-width:768px){
 
@@ -265,6 +311,22 @@ body.detal{
          align-items: center;
          justify-content: center;
      }
+     .detal_todos-soloBotones_p1{
+
+         display: flex;
+         justify-content: space-evenly;
+     }
+     .detal_cantidad_de_p1{
+         font-size: xxx-large;
+         width: 100%;
+         height: 20%;
+         text-align:center;
+         padding: 2%;
+        }
+    .detal_compras_de_p1{
+            font-size: medium;
+            width: 100%;
+        }
     }
 
 
@@ -282,12 +344,13 @@ body.detal{
         }
     
          .box_img_mini_p1 img {
-             width: 20%;
-             margin-left: 10%;          
+            width: 20%;
+            margin-left: 10%;          
             max-width: 40%;
             height: auto;
 
          } 
+         
          .img-principal_p1 img{
             width: 80%;
             max-width: 100%;
@@ -307,6 +370,10 @@ body.detal{
 
         .box-content-p1{
             font-size:larger
+        }
+
+        .Detail_mediosDePago{
+            width: 50%;
         }
         .detal-cantidad_p1{
             display: flex;
