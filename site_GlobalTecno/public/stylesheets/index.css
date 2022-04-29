@@ -272,6 +272,7 @@ footer a.footer__telefono img {
     nav div.burguer {
         display: none;
     }
+    
 
     .home__header {
         align-items: baseline;
@@ -315,6 +316,11 @@ footer a.footer__telefono img {
         font-weight: 300;
         font-size: 20px;
     }
+    h1{
+        animation: titulo linear 5000ms infinite;
+    }
+
+   
 
     div.buscador {
         width: 35%;
@@ -347,11 +353,13 @@ footer a.footer__telefono img {
     }
 
     div.login button.home__login{
+        box-shadow: 2px -3px rgba(75, 223, 223, 0.5);
         width: 35%;
         background-color: var(--colorVerdeClaro);
         border-radius: 10px;
     }
     div.login button.home__register{
+        box-shadow: 2px -3px rgba(75, 223, 223, 0.5);
         width: 45%;
         background-color: var(--colorVerdeClaro);
         border-radius: 10px;
@@ -389,6 +397,69 @@ footer a.footer__telefono img {
         width: 100%;
     }
 
+    @keyframes titulo {
+        0% {
+            text-shadow:
+              4px -4px 0 rgb(9, 180, 86), 
+              3px -3px 0 rgb(9, 180, 86), 
+              2px -2px 0 rgb(9, 180, 86), 
+              1px -1px 0 rgb(9, 180, 86),
+              -4px 4px 0 hsla(180, 100%, 50%, 1), 
+              -3px 3px 0 hsla(180, 100%, 50%, 1), 
+              -2px 2px 0 hsla(180, 100%, 50%, 1), 
+              -1px 1px 0 hsla(180, 100%, 50%, 1)
+            ;
+          }
+          25% {    
+            text-shadow:      
+              -4px -4px 0 hsla(180, 100%, 50%, 1), 
+              -3px -3px 0 hsla(180, 100%, 50%, 1), 
+              -2px -2px 0 hsla(180, 100%, 50%, 1), 
+              -1px -1px 0 hsla(180, 100%, 50%, 1),
+              4px 4px 0 rgb(9, 180, 86), 
+              3px 3px 0 rgb(9, 180, 86), 
+              2px 2px 0 rgb(9, 180, 86), 
+              1px 1px 0 rgb(9, 180, 86)      
+            ;
+          }
+          50% {
+            text-shadow:
+              -4px 4px 0 rgb(9, 180, 86), 
+              -3px 3px 0 rgb(9, 180, 86), 
+              -2px 2px 0 rgb(9, 180, 86), 
+              -1px 1px 0 rgb(9, 180, 86),
+              4px -4px 0 hsla(180, 100%, 50%, 1), 
+              3px -3px 0 hsla(180, 100%, 50%, 1), 
+              2px -2px 0 hsla(180, 100%, 50%, 1), 
+              1px -1px 0 hsla(180, 100%, 50%, 1)
+            ;
+          }
+          75% {
+            text-shadow:
+              4px 4px 0 hsla(180, 100%, 50%, 1), 
+              3px 3px 0 hsla(180, 100%, 50%, 1), 
+              2px 2px 0 hsla(180, 100%, 50%, 1), 
+              1px 1px 0 hsla(180, 100%, 50%, 1),
+              -4px -4px 0 rgb(9, 180, 86), 
+              -3px -3px 0 rgb(9, 180, 86), 
+              -2px -2px 0 rgb(9, 180, 86), 
+              -1px -1px 0 rgb(9, 180, 86)      
+            ;
+          }
+          100% {
+            text-shadow:
+              4px -4px 0 rgb(9, 180, 86), 
+              3px -3px 0 rgb(9, 180, 86), 
+              2px -2px 0 rgb(9, 180, 86), 
+              1px -1px 0 rgb(9, 180, 86),
+              -4px 4px 0 hsla(180, 100%, 50%, 1), 
+              -3px 3px 0 hsla(180, 100%, 50%, 1), 
+              -2px 2px 0 hsla(180, 100%, 50%, 1), 
+              -1px 1px 0 hsla(180, 100%, 50%, 1)
+            ;
+          }  
+    }
+
     /* main */
 
     div.carrusel img {
@@ -403,9 +474,7 @@ footer a.footer__telefono img {
         box-shadow: 4px -5px rgba(9, 37, 37, 0.5);
         
     }
-
-
-
+   
 
 
     /* footer */
@@ -451,10 +520,25 @@ footer a.footer__telefono img {
     .home_body{
         max-width: 1440px;
     }
-
-    
+    div.login button.home__login:hover{
+        box-shadow: 3px -4px rgba(75, 223, 223, 0.5);
+        transform: scale(1.1);
+    }
+    div.login button.home__register:hover{
+        box-shadow: 3px -4px rgba(75, 223, 223, 0.5);
+        transform: scale(1.1);
+    }
+   
+    li.home__menu:hover{
+        transform: scale(1);
+        text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(248, 248, 247), 0 0 0.2em rgb(255, 255, 255);
+    }
 
     /* main */
+
+    .home__main{
+        margin-bottom: 40px;
+    }
     .home__main article {
         width: 23%;
         justify-content: space-evenly;
@@ -464,6 +548,12 @@ footer a.footer__telefono img {
        flex-direction: row;
        align-items: flex-start;
    }
+
+   article.home__article__producto:hover{
+    transform: scale(1.1);
+   }
+
+
     
 
         /*footer */
