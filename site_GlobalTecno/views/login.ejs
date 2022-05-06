@@ -1,6 +1,6 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="/stylesheets/style.css">
     <title>Login</title>
 </head>
-
+<body>
+    
+</body>
+</html>
 <body class="home_body">
     <header class="home__header">
         <nav>
@@ -28,13 +31,13 @@
             </div>
             
             <div class="login">
-                <button class="home__login"><a  href="/Login">ingresa</a></button>
-                <button class="home__register"><a href="/register">Registrate</a></button>
+                <button class="home__login"><a  href="/users/login">ingresa</a></button>
+                <button class="home__register"><a href="/users/register">Registrate</a></button>
             </div>
 
             <div class="iconos">
                 <i class="fa-solid fa-user"></i>
-                <a href="/productCarri"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="/products/cart"><i class="fa-solid fa-cart-shopping"></i></a>
 
                 <i class="signo__peso"><i class="fa-solid fa-dollar-sign"></i></i>
             </div>
@@ -64,7 +67,7 @@
     </header>
 
     <main>
-            <section class="contenedor">
+            <section class="login__contenedor">
                 <h1 class="titulo">Ingresar</h1>
                 <form action="">
                     
@@ -78,21 +81,21 @@
                         
                     <span id="login-texto1">¿Olvidaste tu contraseña?</span>
                         
-                        <div class="boton-link">
+                        <div class="login__boton-link">
                             <button id="botoni" type="submit" title="Ingresar" name="inresar">Ingresar</button>
                         </div>
                         
                         <span id="login-texto2">O</span>
                 
-                    <div class="boton-link">
+                    <div class="login__boton-link">
                         <button id="botonf" type="button" onclick="location.href='https://www.facebook.com'">Entrar con Facebook</button>
                     </div>   
-                        <div class="boton-link">
+                        <div class="login__boton-link">
                             <button id="botong" type="button" onclick="location.href='https://www.Google.com'">Continuar con Google</button>
                         </div>
                     <span id="login-texto3">¿No tienes cuenta?</span>
                     
-                    <div class="boton-link">
+                    <div class="login__boton-link">
                        <button id="botonr" type="submit"  title="registrate" name="registrate">Registrate</button>
                     </div>  
         

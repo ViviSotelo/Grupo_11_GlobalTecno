@@ -28,13 +28,13 @@
             </div>
             
             <div class="login">
-                <button class="home__login"><a  href="/Login">ingresa</a></button>
-                <button class="home__register"><a href="/register">Registrate</a></button>
+                <button class="home__login"><a  href="/users/login">ingresa</a></button>
+                <button class="home__register"><a href="/users/register">Registrate</a></button>
             </div>
 
             <div class="iconos">
                 <i class="fa-solid fa-user"></i>
-                <a href="/productCarri"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="/products/cart"><i class="fa-solid fa-cart-shopping"></i></a>
 
                 <i class="signo__peso"><i class="fa-solid fa-dollar-sign"></i></i>
             </div>
@@ -63,13 +63,13 @@
         </nav>
     </header>
     <main>
-        <section class="contenedor">
+        <section class="register__contenedor">
             <h1 class="titulo">Registrate</h1>
             <div class="boton-link">
-                <button id="botonf" type="button" onclick="location.href='https://www.facebook.com'">Entrar con Facebook</button>
+                <button id="botonf" type="button" onclick="location.href= 'https:/www.facebook.com'">Entrar con Facebook</button>
             </div>   
                 <div class="boton-link">
-                    <button id="botong" type="button" onclick="location.href='https://www.Google.com'">Continuar con Google</button>
+                    <button id="botong" type="button" onclick="location.href= 'https:/www.Google.com'">Continuar con Google</button>
                 </div>
             <span id="register-texto1">O registrate con tu E-mail</span>
         <form action="">
@@ -90,7 +90,8 @@
             <div class="boton-link">
                 <button id="botonr" type="submit" title="registrate" name="registrate">Registrate</button>
             </div>  
-                <span id="register-texto3">¿Ya tenes cuenta?Inicia sesion <a href="/login">aca</a> </span>
+
+                <p class="register-texto">¿Ya tenes cuenta?Inicia sesion <a href="/users/login">aca</a> </p>
   </form>
         </section>
 

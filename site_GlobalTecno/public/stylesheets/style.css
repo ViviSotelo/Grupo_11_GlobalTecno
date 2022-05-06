@@ -2,10 +2,11 @@
 @import './variables.css';
 
 @import './header.css';
-@import './footer.css';
 @import './login.css';
-@import './productCarri.css';
-@import './productDetal.css';
+@import './footer.css';
+
+@import './productCart.css';
+@import './productDetail.css';
 @import './register.css';
 @import './index.css';
 
