@@ -1,16 +1,132 @@
+/* header */
+.home_body {
+  
+    margin: auto;
+    background-color: var(--colorMain);
+
+}
+
+.home__header nav {
+    align-items: center;
+    background-color: var(--colorHeader);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+nav div.burguer {
+    font-size: 30px;
+    width: 5%;
+}
+
+nav div.burguer i {
+
+    font-size: 27px;
+}
+
+div.logo {
+    width: 10%;
+    
+}
+
+div.logo img {
+
+    width: 45px;
+    color: var(--colorHeader);
+}
+
+div.buscador {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+div.buscador input {
+   
+    width: 80%;
+    padding: 7px 4px;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--colorVerdeClaro);
+    border: none;
+
+}
+
+div.buscador button.lupa {
+    width: 17%;
+    padding: 7px;
+    border-radius: 0 10px 10px 0;
+    background-color: var(--colorVerdeClaro);
+    border: none;
+}
+
+div.iconos {
+    width: 30%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.iconos a i {
+    font-size: 23px;
+}
+
+i.fa-user,
+.iconos a,
+i.signo__peso {
+    border-radius: 50%;
+    background-color: var(--colorVerdeClaro);
+    color: black;
+    padding: 10px;
+    margin-left: 4px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header div.moneda,
+div.login,
+div.home__barra__menu {
+    display: none;
+}
+
+.home__main p.home__descripcion,
+p.home__precio__dolar,
+div.logo h1 {
+    display: none;
+
+}
 
 
 
 
 /* main */
 
-.register main{
-    padding: 0 20px;
-}
     
- main{
+ main{ 
      
-background-color: var(--colorVerdeClaro);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--colorMain);
+    border-left:1px solid black;
+    border-right:1px solid black; 
+    font-family:"josefinSans" ;
+    src: url("/font/JosefinSans-VariableFont_wght.ttf") format("truetype");
+    font-style: 'normal';
+    font-weight: 400;
+
 }
  
 section .register__contenedor{
@@ -24,61 +140,103 @@ background-color: #e3e3e3 ;
 } 
 
 .titulo{
- padding: 10px;
+padding: 15px;
 text-transform: uppercase;
 text-align: center;
 }
 
 
-.register form{
-    margin-top: 15px;
-}
-
-.register__form-box{
-margin-bottom: 15px;
-}
-
 .register__form-input{
-width: 50%;
-padding: 5px;
+width: 85%;
+height: 30%;
+padding: 10px;
 background-color: var(--colorVerdeClaro);
+border-radius: 5px;
+font-size:115%;
 border: none;
+margin-top:15px;
 }
-/* 
-button{
-    width: 50%;
-    margin-bottom: 10px ;
-    padding: 5px ;
-    text-align: center;
+
+section button{
+    width: 85%;
+    height: 30%;
+    padding: 10px;
     background-color: var(--colorVerdeClaro);
-    border: none;
-} */
+    border-radius: 5px;
+    font-size:115%;    
+    text-align: center;
+    }
+    
+.boton-link{
+    margin-top: 10px;
+}
 
 
 #botonf{
-    text-align: left;
+    text-align: center;
     color: antiquewhite;
     background-color: blue;
+    margin-bottom: 1px;
+    
 }
+
 #botong{
-    text-align: left;
+    text-align:center;
 }
 
 #botonr{
     background-color: var(--colorHeader);
-    font-size: 16px;
     color: black;
+    border-radius: 5px;
+    font-size:115%;
+    margin-top: 15px;
+margin-bottom: 5px;
 }
 
-
-
-.register-texto{
-text-align: center;
+#register-texto1{
 font-size: 0.7rem;
-margin-bottom:10px;
+margin-top: 15px;
+}
+
+#register-texto2{
+    font-size: 0.6rem;
+   
+    }
+
+#register-texto3{
+        font-size: 0.7rem;
+        }
+        
+/* Main Media tablet */
+
+@media (min-width:768px){
+
+    .register__form-input{
+        width: 70%;
+
+    }
+    section button{
+        width: 70%;
+
+}
+
 }
 
 
 
+/* Main media Desktop */
 
 
+@media (min-width:1024px){
+
+
+    .register__form-input{
+        width: 40%;
+
+    }
+    section button{
+        width: 40%;
+
+}
+
+}

@@ -1,7 +1,9 @@
 /* header */
-/* .home_body {
-    margin: auto;
+.home_body {
   
+    margin: auto;
+    background-color: var(--colorMain);
+
 }
 
 .home__header nav {
@@ -106,6 +108,7 @@ div.logo h1 {
 } */
 
 
+
 /* main */
 
     
@@ -131,7 +134,6 @@ section .login__contenedor{
 background-color: #e3e3e3 ;
     width: 90%;
     margin: auto;
-    margin-top:0;
     border-radius: 12px;
     padding:10px;
     text-align: center;
@@ -143,22 +145,26 @@ text-transform: uppercase;
 text-align: center;
 }
 
-#register__form-input{
-width: 40%;
+
+
+#login__form-input{
+width: 85%;
 height: 30%;
 padding: 10px;
 background-color: var(--colorVerdeClaro);
-border-radius: 4px;
-font-size:120%;
+border-radius: 5px;
+font-size:115%;
 border: none;
+margin-top:15px;
 }
 
+
 section button{
-    width: 40%;
+    width: 85%;
     height: 30%;
     padding: 10px;
     background-color: var(--colorVerdeClaro);
-    border-radius: 4px;
+    border-radius: 5px;
     font-size:115%;    
     text-align: center;
     }
@@ -183,21 +189,63 @@ section button{
 #botonr{
     background-color: var(--colorHeader);
     color: black;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size:115%;
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-bottom:15px ;
 }
 
-#register-texto{
-font-size: 0.8rem;
-
+#login-texto1{
+    font-size: 0.7rem;
+    margin-bottom:15px;
 }
 
-#register-texto2{
-    font-size: 0.8rem;
-    margin-bottom:25px;
+#login-texto2{
+    font-size: 0.6rem;
+  
     }
 
+#login-texto3{
+font-size: 0.7rem;
+}
+
+
+
+/* Main Media tablet */
+
+@media (min-width:768px){
+
+    
+    div.login__form-box{
+        width: 83%;
+    margin: 0% auto;
+    }
+
+    section button{
+        width: 70%;
+
+}
+
+}
+
+
+
+/* Main media Desktop */
+
+
+@media (min-width:1024px){
+
+
+    div.login__form-box{
+        width: 47%;
+        margin: 0% auto;
+    }
+    section button{
+        width: 40%;
+
+}
+
+}
 
 /* footer */
 
