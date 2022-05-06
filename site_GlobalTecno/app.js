@@ -19,14 +19,14 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-/* app.use('/', indexRouter);
-app.use('/users', usersRouter); */
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
 
-app.get('/', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'index.html')));
+/* app.get('/', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'index.html')));
 app.get('/product-detalle', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'productDetal.html')));
 app.get('/product-carrito', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'productCarri.html')));
 app.get('/register', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'register.html')));
-app.get('/login', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'login.html')));
+app.get('/login', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'login.html'))); */
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
