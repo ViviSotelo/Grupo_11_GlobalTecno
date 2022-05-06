@@ -128,8 +128,10 @@ div.logo h1 {
     font-weight: 400;
 
 }
- 
-section .register__contenedor{
+
+
+
+.contenedor{
 background-color: #e3e3e3 ;
     width: 90%;
     margin: auto;
