@@ -1,12 +1,243 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c1e554998a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>GlobalTecno</title>
+</head>
+
+<body class="home_body">
+    <header class="home__header">
+        <nav>
+            <div class="burguer">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+           
+            <div class="logo">
+                <a href="/"><img src="/images/LOGO-GT-trasparente.png" alt=""></a>
+                <h1>GlobalTecno</h1>
+            </div>
+
+            <div class="buscador">
+                <input type="text" placeholder="Buscar productos,marcas" required>
+                <button class="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            
+            <div class="login">
+                <button class="home__login"><a  href="/users/login">ingresa</a></button>
+                <button class="home__register"><a href="/users/register">Registrate</a></button>
+            </div>
+
+            <div class="iconos">
+                <i class="fa-solid fa-user"></i>
+                <a href="/products/cart"><i class="fa-solid fa-cart-shopping"></i></a>
+
+                <i class="signo__peso"><i class="fa-solid fa-dollar-sign"></i></i>
+            </div>
+
+            
+
+            <div class="moneda">
+
+                <input type="checkbox" name="peso" id="peso">
+                <label for="peso">peso</label>
+                <input type="checkbox" name="dolar" id="dolar">
+                <label for="dolar">dolar</label>
+
+            </div>
+           
+        </nav>
+        <nav>
+            <div class="home__barra__menu">
+                <ul>
+                    <li class="home__menu"><a href=""></a>Telefonia</li>
+                    <li class="home__menu"><a href=""></a>Electronica</li>
+                    <li class="home__menu"><a href=""></a>Accesorio</li>
+                    <li class="home__menu"><a href=""></a>Ayuda</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="home__main">
+        <div class="carrusel">
+            <a href=""><img src="/images/carrusel1.jpg" alt=""></a>
+        </div>
+
+        <section>
+
+            <h2>ofertas</h2>
+            <article class="home__article__producto">
+                <div class="home__imagen__producto">
+                    <a href="/products/detail"><img src="/images/productos/P1/1.jpg" alt=""></a>
+                </div>
+
+                <div class="home__productos">
+                    <h4>Protector de pantalla</h4>
+                    <p class="home__precio">$185,01</p>
+                    <p class="home__precio__dolar">USD $1,70</p>
+                    <p class="home__descripcion">Papel como película protectora de pantalla, pintura mate PET para iPad
+                        2018 9,7
+                        Air 2 3 4 10,5 2020 Pro 11 10,2 7th Gen Mini 4 5</p>
+                </div>
+            </article>
+
+            <article  class="home__article__producto">
+                <div class="home__imagen__producto">
+
+                <a href="/products/detail"><img src="/images/productos/P2/1.jpg" alt=""></a>
+                </div>
+
+                <div>
+                    <h4>Bolígrafo Universal para Teléfonos Inteligentes</h4>
+                    <p class="home__precio">$650,35</p>
+                    <p class="home__precio__dolar">USD $6</p>
+                    <p class="home__descripcion">Lápiz Stylus para Dibujo en Pantalla Táctil,
+                        Sistemas Android e iOS, Lenovo, Xiaomi, Samsung, Tableta, iPad, iPhone</p>
+                </div>
+
+            </article>
+
+            <article class="home__article__producto">
+                <div class="home__imagen__producto">
+                <a href="/products/detail"><img src="/images/productos/P5/1.jpg" alt=""></a>
+               </div>
+
+                <div>
+                    <h4>Xiaomi Redmi Note 10 Pro</h4>
+                    <p class="home__precio">$81.999</p>
+                    <p class="home__precio__dolar">USD $728</p>
+                    <p class="home__descripcion">El Xiaomi Redmi Note 10 Pro es el smartphone más poderoso de la serie.
+                    </p>
+                </div>
+            </article>
+
+            <article class="home__article__producto">
+                <div class="home__imagen__producto">
+                <a href="/products/detail"><img src="/images/productos/P7/1.jpg" alt=""></a>
+
+                </div>
+                <div>
+                    <h4>Reloj inteligente Xiaomi</h4>
+                    <p class="home__precio">$5.243,08</p>
+                    <p class="home__precio__dolar">USD $47</p>
+                    <p class="home__descripcion"> pulsera deportiva Original
+                        con idioma holandés, soporte japonés, coreano, hebreo, alarma, 2022</p>
+                </div>
+            </article>
+
+        </section>
+
+        <section>
+            <h2>destacados</h2>
+            <article class="home__article__producto">
+                <div class="home__imagen__producto">
+
+                <a href="/products/detail"><img src="/images/productos/p9/aspiradora ¡Robot.jpg" alt=""></a>
+
+            </div>
+                <div>
+                    <h4>Aspiradora iRobot</h4>
+                    <p class="home__precio">$207.000,00</p>
+                    <p class="home__precio__dolar">USD $1.838</p>
+                    <p class="home__descripcion">Se desplaza de forma lógica y en línea recta
+                        Su navegación inteligente en línea recta utiliza sensores de seguimiento para limpiar tus suelos
+                        de forma sistemática</p>
+                </div>
+            </article>
+
+            <article class="home__article__producto">
+                <div class="home__imagen__producto">
+
+                <a href="/products/detail"><img src="/images/productos/p10/echo_4ta_generacion.jpg" alt=""></a>
+               </div>
+                <div>
+                    <h4>Echo dot (4ta Generación)</h4>
+                    <p class="home__precio">$14.390</p>
+                    <p class="home__precio__dolar">USD $128</p>
+                    <p class="home__descripcion"> Un dispositivo completo. Echo combina sonido de alta calidad, un hub
+                        de smart home Zigbee incorporado, y un sensor de temperatura.</p>
+                </div>
+            </article>
+
+            <article class="home__article__producto">
+                <div class="home__imagen__producto">
+                    <a href="/products/detail"><img src="/images/productos/p11/impresora_1203_800_250x250.jpg" alt=""></a>
+                </div>
+
+                <div>
+                    <h4> IMPRESORA 3D CREALITY ENDER 3 S1</h4>
+                    <p class="home__precio">$74249</p>
+                    <p class="home__precio__dolar">USD $660</p>
+                    <p class="home__descripcion">Comparado con otros extrusores directos, el “Sprite” es más ligero y
+                        posee menos inercia y posicionamiento más preciso.</p>
+                </div>
+            </article>
+
+
+        </section>
+
+    </main>
+
+    <footer class="home__footer">
+        <div class="footer__1">
+            <section class="footer__marcas">
+
+                <h5>Marcas</h5>
     
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+                <ul>
+                    <li><a href=""></a>Samsung</li>
+                    <li><a href=""></a>Xiaomi</li>
+                    <li><a href=""></a>Impresoras 3D</li>
+                    <li><a href=""></a>Paper Like</li>
+                    <li><a href=""></a>Echo</li>
+                    <li><a href=""></a>!Robot</li>
+    
+                </ul>
+            </section>
+            <section class="footer__buscados">
+                <h5>Los más buscados</h5>
+                <ul>
+                    <li><a href=""></a>Celulares</li>
+                    <li><a href=""></a>Reloj inteligente</li>
+                    <li><a href=""></a>Hogar</li>
+                    <li><a href=""></a>Impresoras</li>
+                    <li><a href=""></a>Protectores</li>
+                </ul>
+            </section>
+            
+        </div>
+        <div class="footer__2">
+            <section class="footer__nosotros">
+                <h5>Sobre Nosotros</h5>
+                <p>Global Tecno es una tienda que ofrece Teléfonos celulares, entre otras cosas, de marcas reconocidas,
+                    tenemos en cuenta el rendimiento, la calidad y siempre buscando el mejor precio, con la opcion de
+                    cambiar a la moneda que mejor se acomoda al comprador. Además cada producto es importado y lo enviamos
+                    hasta la puerta de tu casa sin cargo adicional.</p>
+            </section>
+
+        </div>
+
+
+
+        <section class="footer__redes">
+            <h5>Contactanos</h5>
+            <div>
+                <a href=""><img src="/images/icons/icons8-facebook-48.png" alt=""></a>
+                <a href=""><img src="/images/icons/icons8-instagram-48.png" alt=""></a>
+                <a href=""><img src="/images/icons/icons8-whatsapp-48.png" alt=""></a>
+                <a class="footer__telefono" href=""><img src="/images/icons/icons8-teléfono-64.png" alt=""></a>
+            </div>
+           
+
+        </section>
+    </footer>
+
+</body>
+
 </html>

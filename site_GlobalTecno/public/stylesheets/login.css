@@ -1,5 +1,5 @@
 /* header */
-.home_body {
+/* .home_body {
     margin: auto;
   
 }
@@ -103,7 +103,7 @@ p.home__precio__dolar,
 div.logo h1 {
     display: none;
 
-}
+} */
 
 
 /* main */
@@ -127,7 +127,7 @@ main{
 
 
 
-.contenedor{
+section .login__contenedor{
 background-color: #e3e3e3 ;
     width: 90%;
     margin: auto;
@@ -163,7 +163,7 @@ section button{
     text-align: center;
     }
     
-.boton-link{
+.login__boton-link{
     margin-top: 10px;
 }
 
@@ -201,7 +201,7 @@ font-size: 0.8rem;
 
 /* footer */
 
-.home__footer {
+/* .home__footer {
 
     background-image: url('/images/footer1.jpg');
     display: flex;
@@ -277,7 +277,7 @@ footer a.footer__telefono img {
 
 
 }
-
+ */
 
 @media(min-width: 768px) {
 
