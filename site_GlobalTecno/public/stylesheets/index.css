@@ -316,8 +316,8 @@ footer a.footer__telefono img {
         font-weight: 300;
         font-size: 20px;
     }
-    h1{
-        animation: titulo linear 5000ms infinite;
+    h1.home__titulo{
+        animation: titulo-pagina linear 5000ms infinite;
     }
 
    
@@ -397,7 +397,7 @@ footer a.footer__telefono img {
         width: 100%;
     }
 
-    @keyframes titulo {
+    @keyframes titulo-pagina {
         0% {
             text-shadow:
               4px -4px 0 rgb(9, 180, 86), 
