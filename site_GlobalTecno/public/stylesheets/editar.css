@@ -1,0 +1,116 @@
+main.editar__main{
+    display: flex;
+    align-items: center;
+}
+
+
+form.formulario_editar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--colorVerdeClaro);
+    border-radius: 15ps;
+}
+form.formulario_editar input.editar{
+    width: 55%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+form.formulario_editar label.editar{
+    width: 40%;
+    margin-top: 10px;  
+    margin-bottom: 10px; 
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start
+
+}
+div.editar_categoria{
+    margin-top: 10px;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center
+}
+
+
+div.editar_categoria select.editar{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+div.editar__caracte{
+    margin-top: 10px;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+div.editar__caracte textarea.editar{
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.editar__enviar__cancelar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+
+}
+
+div button.editar{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+@media (min-width:768px){
+    form.formulario_editar{
+       width: 70%;
+       
+    }
+    form.formulario_editar label.editar{
+        font-size: 17px;
+    
+    }
+}
+@media (min-width:1024px){
+    form.formulario_editar{
+        width: 60%;
+        
+     }
+     form.formulario_editar label.editar{
+        font-size: 20px;
+        padding-left: 35px;
+    }
+    div button.editar{
+        width: 23%;
+        
+    }
+}
+

@@ -3,8 +3,8 @@
 
 @import './header.css';
 @import './login.css';
-@import './footer.css';
-
+@import './carga.css';
+@import './editar.css';
 @import './productCart.css';
 @import './productDetail.css';
 @import './register.css';
