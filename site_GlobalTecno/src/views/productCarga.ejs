@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head', {
+        title: 'Carga'
+    }) %> 
+
+<body>
+    <%- include('./partials/header') %>
+    <main class="carga__main">
+        <form  class="formulario_carga" action="POST">
+            
+                <label class="Carga" for="name">Nombre: </label>
+                <input class="Carga" type="text" name="name">
+
+                <label class="Carga" for="price">Precio: </label>
+                <input class="Carga" type="number" name="precio">
+
+                <label class="Carga" for="description">Descripción: </label>
+                <input class="Carga" type="text" name="descripcion">
+
+                <label class="Carga" for="category">Categoría: </label>
+                <div class="carga_categoria">
+                     <select class="carga" name="category" id="">
+                        <option selected>Elige uno...</option>
+                        <option value="celular">Calular</option>
+                        <option value="electronica">Electrónica</option>
+                        <option value="accesorio">Accesorio</option>
+                    </select>
+                </div>
+
+                <label class="Carga" for="caracteristicas">Características: </label>
+                <div class="carga__caracte">
+                    <textarea class="carga" type="text" name="caracteristicas">Características</textarea>
+                </div>
+                
+                 <div class="Carga__enviar__cancelar">
+                    <button class="carga" type="submit">Enviar</button>
+                    <button class="carga" type="reset">Cancelar</button>
+                </div>
+               
+            
+        </form>
+    </main>
+    <%- include('./partials/footer') %>
+</body>
+</html>

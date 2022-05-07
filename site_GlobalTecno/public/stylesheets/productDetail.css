@@ -1,6 +1,6 @@
 
 /* header */
-
+/* 
 .detal_html{
     margin-right: -30px auto
 }
@@ -105,7 +105,7 @@ p.home__precio__dolar,
 div.logo h1 {
     display: none;
 
-}
+} */
 
 /* main */
 
@@ -212,7 +212,16 @@ body.detal{
 }
 .detal-carrito_p1{
     margin-top: 5%;
-    width: 60%;
+    width: 30%;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2%;
+    margin-right: 1%;
+}
+button.detal-editar{
+    margin-top: 5%;
+    width: 30%;
     background-color: #c4c4c4;
     border-radius: 10px;
     text-align: center;

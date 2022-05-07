@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head', {
+        title: 'Editar'
+    }) %> 
+
+<body>
+    <%- include('./partials/header') %>
+    <main class="editar__main">
+        <form  class="formulario_editar" action="POST">
+            
+                <label class="editar" for="name">Nombre: </label>
+                <input class="editar" type="text" name="name">
+
+                <label class="editar" for="price">Precio: </label>
+                <input class="editar" type="number" name="precio">
+
+                <label class="editar" for="description">Descripción: </label>
+                <input class="editar" type="text" name="descripcion">
+
+                <label class="editar" for="category">Categoría: </label>
+                <div class="editar_categoria">
+                     <select class="editar" name="editar_category" id="">
+                        <option selected>Elige uno...</option>
+                        <option value="celular">Calular</option>
+                        <option value="electronica">Electrónica</option>
+                        <option value="accesorio">Accesorio</option>
+                    </select>
+                </div>
+
+                <label class="editar" for="caracteristicas">Características: </label>
+                <div class="editar__caracte">
+                    <textarea class="editar" type="text" name="caracteristicas">Características</textarea>
+                </div>
+                
+                 <div class="editar__enviar__cancelar">
+                    <button class="editar" type="submit">Enviar</button>
+                    <button class="editar" type="reset">Cancelar</button>
+                </div>
+               
+            
+        </form>
+    </main>
+    <%- include('./partials/footer') %>
+</body>
+</html>

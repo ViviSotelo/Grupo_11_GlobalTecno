@@ -1,0 +1,117 @@
+main .carga__main{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.formulario_carga{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   width: 95%;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   background-color: var(--colorVerdeClaro);
+   border-radius: 15px;
+}
+.formulario_carga input.Carga{
+    width: 55%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+.formulario_carga label.Carga{
+    width: 40%;
+    margin-top: 10px;  
+    margin-bottom: 10px; 
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start
+
+}
+div.carga_categoria{
+    margin-top: 10px;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center
+}
+
+
+div.carga_categoria select.carga{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.carga__caracte{
+    margin-top: 10px;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+div.carga__caracte textarea.carga{
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.Carga__enviar__cancelar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+
+}
+
+div button.carga{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+@media(min-width: 768px){
+    .formulario_carga{
+       width: 70%;
+       
+    }
+    .formulario_carga label.carga{
+        font-size: 17px;
+    
+    }
+}
+@media(min-width: 1024px){
+    .formulario_carga{
+        width: 60%;
+        
+     }
+     .formulario_carga label.carga{
+        font-size: 20px;
+        padding-left: 35px;
+    }
+    div button.carga{
+        width: 23%;
+        
+    }
+}
+
