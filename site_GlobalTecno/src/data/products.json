@@ -3,6 +3,8 @@
       "id": 1,
       "name": "PROTECTOR DE PANTALLA - PAPER LIKE",
       "price": 185.01,
+      "price-dolar": 1.70,
+      "description": "Papel como película protectora de pantalla, pintura mate PET para iPad 2018 9,7 Air 2 3 4 10,5 2020 Pro 11 10,2 7th Gen Mini 4 5",
       "category": 3,
       "img": "P1-1.jpg"
    },
@@ -10,69 +12,89 @@
       "id": 2,
       "name": "BOLÍGRAFO UNIVERSAL PARA TELÉFONOS INTELIGENTES",
       "price": 650.35,
+      "price-dolar": 5.50,
+      "description": "Lápiz Stylus para Dibujo en Pantalla Táctil,Sistemas Android e iOS, Lenovo, Xiaomi, Samsung, Tableta, iPad, iPhone",
       "category": 3,
       "img": "P2-1.jpg"
    },
    {
       "id": 3,
       "name": "Teléfono Inteligente S21 + Ultra",
-      "price": 93222,
+      "price": 9.322,
+      "price-dolar": 78.40,
+      "description": "Teléfono Inteligente S21 + Ultra, versión Global, 6,7 pulgadas, 16 Gb + 512 GB, 32 + 50MP Android 11,0, 6800mAh, 10 núcleos, desbloqueado, 4G, 5G",
       "category": 1,
       "img": "P3-1.jpg"
    },
    {
       "id": 4,
       "name": "Teléfono Inteligente S22 Ultra versión Global",
-      "price": 154999.99,
+      "price": 229.999,
+      "price-dolar": 1.935,
+      "description": "Teléfono Inteligente S22 Ultra versión Global, Smartphone de 7,2 pulgadas, 4G, 5G,Android 12, tarjeta Dual 5G, 6800mAh, 6,8 pulgadas, HD, 16 + 512GB, 10 núcleos",
       "category": 1,
       "img": "P4-1.jpg"
    },
    {
       "id": 5,
-      "name": "Xiaomi Redmi Note 10 Pro ",
-      "price": 81999,
+      "name": "Xiaomi Redmi Note 10 Pro",
+      "price": 80.000,
+      "price-dolar": 673,
+      "description": "Xiaomi Redmi Note 10 Pro (Global) Dual SIM 128 GB gris ónix 6 GB RAM",
       "category": 1,
       "img": "P5-1.jpg"
    },
    {
       "id": 6,
       "name": "Apple iPhone 13 (128 GB)",
-      "price": 249799.99,
+      "price": 315.980,
+      "price-dolar": 2657,
+      "description": "Conservando la pantalla OLED de 6.1 pulgadas, cuenta con un procesador Apple A15 Bionic, con almacenamiento interno de 128GB. ",
       "category": 1,
       "img": "p6-1.jpg"
    },
    {
       "id": 7,
       "name": "Reloj inteligente Xiamoi para hombre y mujer",
-      "price": 5243.08,
+      "price": 5.200,
+      "price-dolar": 44,
+      "description": "Reloj inteligente Xiami Xiamoi para hombre y mujer, pulsera deportiva Original con idioma holandés, soporte japonés, coreano, hebreo, alarma, 2022",
       "category": 3,
       "img": "p7-1.jpg"
    },
    {
       "id": 8,
       "name": "Mini tarjeta SD de alta velocidad",
-      "price": 1613.55,
+      "price": 1.650,
+      "price-dolar": 14,
+      "description": "Mini tarjeta SD de alta velocidad, microtarjeta de memoria de 256GB, 64GB, 8GB,16GB, 32GB, 128GB, 512GB, Clase 10, tarjeta Flash TF Original",
       "category": 3,
       "img": "p8-1.jpg"
    },
    {
       "id": 9,
       "name": "Aspiradora iRobot Roomba i3+",
-      "price": 207000.00,
+      "price": 20.7000,
+      "price-dolar": 174,
+      "description": "Se desplaza de forma lógica y en línea recta Su navegación inteligente en línea recta utiliza sensores de seguimiento para limpiar tus suelos de forma sistemática, en filas ordenadas. Cuando la batería se está agotando, se recarga y reanuda el trabajo justo donde lo dejó, asegurando una limpieza completa para tu hogar",
       "category": 2,
       "img": "p9-1.jpg"
    },
    {
       "id": 10,
       "name": "Echo dot (4ta Generación)",
-      "price": 8710.63,
+      "price": 8.710,
+      "price-dolar": 73,
+      "description": "El wifi de doble banda es compatible con las redes 802.11a/b/g/n/ac (2.4 y 5 GHz). No admite la conexión a redes wifi ad-hoc (o de par a par). Audio: 3.0 pulgadas (76.2 mm) woofer de neodimio y 2 tweeters de 0.8 pulgadas (20 mm).",
       "category": 2,
       "img": "p10-1.jpg"
    },
    {
       "id": 11,
       "name": "Impresora Creality 3D Ender-3 Pro color negro",
-      "price": 74249,
+      "price": 74.249,
+      "price-dolar": 625,
+      "description": "Tecnología de Impresión: FDM; Tamaño de impresión: 220 * 220 * 270 mm; Filamento soportado: PLA/TPU/PETG/ABS; Velocidad de impresion: Maximo 150 mm/s; Precisión de impresión: ± 0,1 mm",
       "category": 2,
       "img": "p11-1.jpg"
    }

@@ -1,4 +1,4 @@
-module.exports = [
+/* module.exports = [
    {
       "id": 1,
       "name": "PROTECTOR DE PANTALLA - PAPER LIKE",
@@ -76,4 +76,4 @@ module.exports = [
       "category": 2,
       "img": "p11-1.jpg"
    }
-]
+] */
