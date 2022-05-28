@@ -12,27 +12,82 @@
         <div class="carrusel">
             <a href=""><img src="/images/carrusel1.jpg" alt=""></a>
         </div>
+        <section>
+            <h2>Celulares</h2>
+            <% celulares.forEach(({id,name,category,description, price, priceDolar,img})=> { %>
+                 
+                <article class="home__article__producto">
+                    <div class="home__imagen__producto">
+                        <a href="/products/detail/<%= id %>"><img src="/images/productos/productosImg/<%= img %>" alt=""></a>
+                    </div>
+                    <div class="home__productos">
+                        <h4><%= name %></h4>
+                        <p class="home__precio"><%= price %>$</p>
+                        <p class="home__precio__dolar"><%= priceDolar %>$</p>
+                        <p class="home__descripcion"><%= description %></p>
+                    </div>
+                </article>
+            <% }) %>
+            
+        </section>
+
+        <section>
+            <h2>Electronica</h2>
+            <% electronica.forEach(({id,name,category,description, price, priceDolar,img})=> { %>
+                 
+                <article class="home__article__producto">
+                    <div class="home__imagen__producto">
+                        <a href="/products/detail/<%= id %>"><img src="/images/productos/productosImg/<%= img %>" alt=""></a>
+                    </div>
+                    <div class="home__productos">
+                        <h4><%= name %></h4>
+                        <p class="home__precio"><%= price %>$</p>
+                        <p class="home__precio__dolar"><%= priceDolar %>$</p>
+                        <p class="home__descripcion"><%= description %></p>
+                    </div>
+                </article>
+            <% }) %>
+            
+        </section>
+        <section>
+            <h2>Accesorios</h2>
+            <% accesorios.forEach(({id,name,category,description, price, priceDolar,img})=> { %>
+                 
+                <article class="home__article__producto">
+                    <div class="home__imagen__producto">
+                        <a href="/products/detail/<%= id %>"><img src="/images/productos/productosImg/<%= img %>" alt=""></a>
+                    </div>
+                    <div class="home__productos">
+                        <h4><%= name %></h4>
+                        <p class="home__precio"><%= price %>$</p>
+                        <p class="home__precio__dolar"><%= priceDolar %>$</p>
+                        <p class="home__descripcion"><%= description %></p>
+                    </div>
+                </article>
+            <% }) %>
+            
+        </section>
 
         <section>
 
             <h2>ofertas</h2>
+            <% ofertas.forEach(({id,name,category,description, price, priceDolar,img})=> { %>
+                 
+                <article class="home__article__producto">
+                    <div class="home__imagen__producto">
+                        <a href="/products/detail/<%= id %>"><img src="/images/productos/productosImg/<%= img %>" alt=""></a>
+                    </div>
+                    <div class="home__productos">
+                        <h4><%= name %></h4>
+                        <p class="home__precio"><%= price %>$</p>
+                        <p class="home__precio__dolar"><%= priceDolar %>$</p>
+                        <p class="home__descripcion"><%= description %></p>
+                    </div>
+                </article>
+            <% }) %>
             
-            <article class="home__article__producto">
-                <div class="home__imagen__producto">
-                    <a href="/products/detail/1"><img src="/images/productos/P1/1.jpg" alt=""></a>
-                </div>
 
-                <div class="home__productos">
-                    <h4>Protector de pantalla</h4>
-                    <p class="home__precio">$185,01</p>
-                    <p class="home__precio__dolar">USD $1,70</p>
-                    <p class="home__descripcion">Papel como película protectora de pantalla, pintura mate PET para iPad
-                        2018 9,7
-                        Air 2 3 4 10,5 2020 Pro 11 10,2 7th Gen Mini 4 5</p>
-                </div>
-            </article>
-
-            <article  class="home__article__producto">
+          <!--   <article  class="home__article__producto">
                 <div class="home__imagen__producto">
 
                 <a href="/products/detail/2"><img src="/images/productos/P2/1.jpg" alt=""></a>
@@ -75,12 +130,27 @@
                         con idioma holandés, soporte japonés, coreano, hebreo, alarma, 2022</p>
                 </div>
             </article>
-
+ -->
         </section>
 
         <section>
             <h2>destacados</h2>
-            <article class="home__article__producto">
+            <% destacados.forEach(({id,name,category,description, price, priceDolar,img})=> { %>
+                 
+                <article class="home__article__producto">
+                    <div class="home__imagen__producto">
+                        <a href="/products/detail/<%= id %>"><img src="/images/productos/productosImg/<%= img %>" alt=""></a>
+                    </div>
+                    <div class="home__productos">
+                        <h4><%= name %></h4>
+                        <p class="home__precio"><%= price %>$</p>
+                        <p class="home__precio__dolar"><%= priceDolar %>$</p>
+                        <p class="home__descripcion"><%= description %></p>
+                    </div>
+                </article>
+            <% }) %>
+            
+            <!-- <article class="home__article__producto">
                 <div class="home__imagen__producto">
 
                 <a href="/products/detail/1"><img src="/images/productos/p9/aspiradora ¡Robot.jpg" alt=""></a>
@@ -123,7 +193,7 @@
                         posee menos inercia y posicionamiento más preciso.</p>
                 </div>
             </article>
-
+ -->
 
         </section>
 

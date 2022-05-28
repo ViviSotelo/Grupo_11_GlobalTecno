@@ -1,0 +1,27 @@
+main.categoria{
+    width: 100%;
+    
+}
+
+section.categoria{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+h4.categoria{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+article.categoria__article__producto{
+    width: 90%;
+    
+
+}
+
+div.categoria__imagen__producto a img{
+    width: 500px;
+    height: 500px;
+}

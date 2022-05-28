@@ -2,17 +2,18 @@ const express = require('express');
 const router = express.Router();
 
 
-const {detail, cart, carga, editar, getByCategory} = require('../controllers/productController');
+const {detail, cart, carga, modificar,editar, getByCategory, search,store} = require('../controllers/productController');
 
 /* products */
 
-router.get('/detail/:id', detail) ;
-router.get('/cart', cart);
-
-router.get('/category/:idCategory/:id?', getByCategory);
-router.get('/carga', carga);
-
-
-router.get('/editar', editar);
+router
+    .get('/detail/:idProducts', detail)
+    .get('/cart', cart)
+    .get('/category/:idCategory/:id?', getByCategory)
+    .get('/carga', carga)
+    .post('/carga', store)
+    .get('/editar/:id', editar)
+    .put('/modificar/:id', modificar)
+    .get('/search', search)
 
 module.exports = router;

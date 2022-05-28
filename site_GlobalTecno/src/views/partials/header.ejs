@@ -8,11 +8,15 @@
             <a href="/"><img src="/images/LOGO-GT-trasparente.png" alt=""></a>
             <h1 class="home__titulo">GlobalTecno</h1>
         </div>
-
-        <div class="buscador">
-            <input type="text" placeholder="Buscar productos,marcas" required>
-            <button class="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
+         
+       <div class="buscador">
+        <form action="/products/search" method="GET">
+                <input type="text" name="keyword" placeholder="Buscar productos,marcas" required>
+                <button type="submit" class="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+      </div>
+       
+        
         
         <div class="login">
             <button class="home__login"><a  href="/users/login">ingresa</a></button>

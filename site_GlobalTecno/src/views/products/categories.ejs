@@ -6,7 +6,18 @@
 <body>
     <%- include('../partials/header') %> 
 <main>
-    
+    <section class="categoria">
+        <article class="categoria">
+                <h4><%= name %></h4>            
+                <div class="categoria">
+                        <% products.forEach(({id, name, price}) => { %>
+                        <p><%= id %></p>
+                         <p><%= name %></p>
+                         <p><%= price %></p>
+                        <% }) %>
+                </div>
+        </article>
+    </section>
 </main>
     <%- include('../partials/footer') %> 
 </body>

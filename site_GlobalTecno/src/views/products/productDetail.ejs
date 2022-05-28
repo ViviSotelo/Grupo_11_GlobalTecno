@@ -8,21 +8,21 @@
 <body class="detal">
     <%- include('../partials/header') %>
     <main>
-        <div class="detail_box">
+        <section class="detail_box">
             <div class="box_img_p1">
                 <div class="box_img_mini_p1">
-                    <img src="/images/productos/P1/4.jpg" alt="">
-                    <img src="/images/productos/P1/3.jpg" alt="">
-                    <img src="/images/productos/P1/2.jpg" alt="">
+                    <img src="/images/productos/productosImg/<%= img %>" alt="">
+                    <!-- <img src="/images/productos/P1/3.jpg" alt="">
+                    <img src="/images/productos/P1/2.jpg" alt=""> -->
                 </div>
                 <div class="img-principal_p1">
-                    <img src="/images/productos/P1/1.jpg" alt="">
+                    <img src="/images/productos/productosImg/<%= img %>" alt="">
                 </div>
             </div>
             <div class="box-content-p1">
-                    <h3>Papel como película protectora de pantalla, pintura mate PET para iPad 2018 9,7 </h3>
+                    <h3><%= name %></h3>
                 <div class="box_precio-content-p1">
-                    <h2>ARS $185,01</h2>
+                    <h3><%= price %>$</h3>
                     <button class="Detail_mediosDePago"><a  href="">Ver Medios de Pago</a></button>
                 </div> 
                 <div class="envio_precio-content-p1">             
@@ -44,7 +44,7 @@
                     <div class="detal_compras_de_p1">
                         <button class="detal-comprar_p1"><h4>COMPRAR</h4></button>
                         <button class="detal-carrito_p1"><a href="/products/cart"></h4>agregar al carrito +</h4></a></button>
-                        <button class="detal-editar"><a href="/products/editar"></h4>Editar</h4></a></button>
+                        <button class="detal-editar"><a href="/products/editar/<%= id %>"></h4>Editar</h4></a></button>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
             </section>
             <section class="descripcion_p1">
                 <nav class="Detalles_P1">
-                    <h1>descripcion</h1>
+                   <!--  <h1>descripcion</h1> -->
 
                     <div class="Detalles-numeroDeProducto_P1">
                         <h4>Número De Producto</h4>
@@ -93,14 +93,15 @@
                     <div class="Detalles-caracteristicas_P1">
                         <h4>Características Del Producto</h4>
                         <div class="detalles_lista_p1">
-                            <p>◉ Proporcione la sensación de escribir en papel, lo cual es imprescindible para aquellos a quienes les gusta escribir en papel, llevando la creación a un nivel superior.</p>
+                            <p><%= description %></p>
+                            <!-- <p>◉ Proporcione la sensación de escribir en papel, lo cual es imprescindible para aquellos a quienes les gusta escribir en papel, llevando la creación a un nivel superior.</p>
                             <p>◉ Recubrimiento superior que aumenta considerablemente la suavidad.</p>
                             <p>◉ Adecuado para ti que escribes notas, diseño gráfico y dibujo.</p>
                             <p>◉ La versión completa está totalmente protegida, la apertura es precisa y no está sesgada.</p>
                             <p>◉ Se combina perfectamente con el 99% de las fundas protectoras del mercado sin deformaciones.</p>
                             <p>◉ Utilizando material similar al papel fabricado por un gran fabricante japonés, el mismo que la fábrica de materia prima designada por ELECOM.</p>
                             <p>◉ Usando pegamento importado, laminación rápida, diseño mate, antideslumbrante.</p>
-                            <p>◉ Viene con un grupo de limpieza, puedes aplicar fácilmente la película tú mismo.</p>
+                            <p>◉ Viene con un grupo de limpieza, puedes aplicar fácilmente la película tú mismo.</p> -->
                         </div>
                 </nav>   
             </section>

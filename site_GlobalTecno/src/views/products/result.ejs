@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head', {
+        title: 'Categorias'
+    }) %> 
+<body>
+    <%- include('../partials/header') %> 
+<main class="categoria">
+    <section class="categoria">
+        
+                <h2>Resultado de la busqueda: <%= keyword %></h2>            
+        <% if (products.length > 0) { %>
+            <% products.forEach(({id,name,category,description, price, priceDolar,img})=> { %>
+                 
+                <article class="categoria__article__producto">
+                    <div class="categoria__imagen__producto">
+                        <a href="/products/detail/<%= id %>"><img src="/images/productos/productosImg/<%= img %>" alt=""></a>
+                    </div>
+    
+                    <div>
+                        <h4 class="categoria"><%= name %></h4>
+                        <p class="categoria__precio"><%= price %></p>
+                        <p class="categoria__precio__dolar"><%= priceDolar %></p>
+                        <p class="categoria__descripcion"><%= description %></p>
+                    </div>
+                </article>
+            <% }) %>
+            
+        <% }else{%>
+                <div>
+                    <h3>No se encontraron resultados para: <%= keyword %></h3>
+                </div>
+        <% } %>
+                
+        
+    </section>
+</main>
+    <%- include('../partials/footer') %> 
+</body>
+</html>

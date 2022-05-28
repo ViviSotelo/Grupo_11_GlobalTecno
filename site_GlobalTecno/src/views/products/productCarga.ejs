@@ -7,24 +7,31 @@
 <body>
     <%- include('../partials/header') %>
     <main class="carga__main">
-        <form  class="formulario_carga" action="POST">
+        <form  class="formulario_carga" method="POST">
             
                 <label class="Carga" for="name">Nombre: </label>
-                <input class="Carga" type="text" name="name">
+                <input class="Carga" type="text" id="name" name="name">
 
                 <label class="Carga" for="price">Precio: </label>
-                <input class="Carga" type="number" name="precio">
+                <input class="Carga" type="number" id="price" name="precio">
+
+                <label class="Carga" for="priceDolar">Precio en dolares: </label>
+                <input class="Carga" type="number" id="priceDolar" name="precioDolar">
 
                 <label class="Carga" for="description">Descripción: </label>
                 <input class="Carga" type="text" name="descripcion">
 
                 <label class="Carga" for="category">Categoría: </label>
                 <div class="carga_categoria">
-                     <select class="carga" name="category" id="">
+                     <select class="carga" name="category" id="category">
                         <option selected>Elige uno...</option>
-                        <option value="celular">Calular</option>
+                        <% categories.forEach(category => { %>
+                            <option value="<%= category.id %>"><%= category.name %></option>
+                        <% }) %>
+                        
+                        <!-- <option value="celular">Calular</option>
                         <option value="electronica">Electrónica</option>
-                        <option value="accesorio">Accesorio</option>
+                        <option value="accesorio">Accesorio</option> -->
                     </select>
                 </div>
 
@@ -32,6 +39,15 @@
                 <div class="carga__caracte">
                     <textarea class="carga" type="text" name="caracteristicas">Características</textarea>
                 </div>
+
+                <div class="carga__ofertas">
+                    <label class="carga__ofertas" for="description">Oferta</label>
+                    <input class="carga__ofertas "type="checkbox" id="ofertas" name="oferta">
+    
+                    <label class="carga__ofertas" for="description">Destacados</label>
+                    <input class="carga__ofertas" type="checkbox" id="destacados" name="desctacado">
+                </div>
+                
                 
                  <div class="Carga__enviar__cancelar">
                     <button class="carga" type="submit">Enviar</button>

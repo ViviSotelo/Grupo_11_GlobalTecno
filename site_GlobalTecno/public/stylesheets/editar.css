@@ -3,6 +3,9 @@ main.editar__main{
     align-items: center;
 }
 
+h2.editar{
+    margin-top: 20px;
+}
 
 form.formulario_editar{
     display: flex;
@@ -61,6 +64,28 @@ div.editar__caracte{
     align-items: flex-end;
 }
 
+div.editar__ofertas{
+    margin-top: 10px;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.editar__ofertas label.editar__ofertas{
+    width: 40%;
+    margin-top: 10px;  
+    margin-bottom: 10px; 
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
 
 div.editar__caracte textarea.editar{
     width: 100%;

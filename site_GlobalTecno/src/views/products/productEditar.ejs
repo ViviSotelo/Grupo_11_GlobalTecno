@@ -7,13 +7,17 @@
 <body>
     <%- include('../partials/header') %>
     <main class="editar__main">
-        <form  class="formulario_editar" action="POST">
+        <h2 class="editar">Esta editando el producto: <%= product.name %></h2>
+        <form  class="formulario_editar" method="POST" action="/products/modificar/<%= product.id %>?_method=PUT">
             
                 <label class="editar" for="name">Nombre: </label>
-                <input class="editar" type="text" name="name">
+                <input class="editar" type="text" id="name" name="name" value="<%= product.name %>">
 
                 <label class="editar" for="price">Precio: </label>
-                <input class="editar" type="number" name="precio">
+                <input class="editar" type="number" id="price" name="precio" value="<%= product.price %>">
+
+                <label class="editar" for="priceDolar">Precio en dolares: </label>
+                <input class="editar" type="number" id="priceDolar" name="precioDolar">
 
                 <label class="editar" for="description">Descripción: </label>
                 <input class="editar" type="text" name="descripcion">
@@ -22,9 +26,12 @@
                 <div class="editar_categoria">
                      <select class="editar" name="editar_category" id="">
                         <option selected>Elige uno...</option>
-                        <option value="celular">Calular</option>
+                        <% categories.forEach(category => { %>
+                            <option value="<%= category.id %>"><%= category.name %></option>
+                        <% }) %>
+                       <!--  <option value="celular">Calular</option>
                         <option value="electronica">Electrónica</option>
-                        <option value="accesorio">Accesorio</option>
+                        <option value="accesorio">Accesorio</option> -->
                     </select>
                 </div>
 
@@ -32,6 +39,15 @@
                 <div class="editar__caracte">
                     <textarea class="editar" type="text" name="caracteristicas">Características</textarea>
                 </div>
+
+                <div class="editar__ofertas">
+                    <label class="editar__ofertas" for="description">Oferta</label>
+                    <input class="editar__ofertas "type="checkbox" id="ofertas" name="oferta">
+    
+                    <label class="editar__ofertas" for="description">Destacados</label>
+                    <input class="editar__ofertas" type="checkbox" id="destacados" name="desctacado">
+                </div>
+                
                 
                  <div class="editar__enviar__cancelar">
                     <button class="editar" type="submit">Enviar</button>
